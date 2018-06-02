@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Georgia-Italic;
+    src: url('../font/georgiai.ttf');
+}
+
+@font-face {
+    font-family: Open-Sans-Light;
+    src: url('../font/OpenSans-Light.ttf');
+}
+
+.incenter{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+.members{
+	flex-direction: column;
+}
+
+.membersTitle{
+	text-align: center;
+}
+
+.members h4{
+	font-family: Georgia-Italic;
+	color: rgb(139,139,139);
+	font-weight: lighter;
+	padding: 0px;
+	font-size: 82%;
+}
+
+.membersTitle h4{
+	margin: 180px 0px 0px 0px;
+}
+
+.membersTitle h1{
+	font-family: Open-Sans-Light;
+	color: rgb(54,54,54);
+	font-weight: lighter;
+	padding: 0px;
+	margin: 0px;
+}
+
+.membersRows{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	width: 100%;
+	flex-direction: column;
+}
+
+.membersRows h3{
+	font-family: Open-Sans-Light;
+	font-size: 110%;
+	color: rgb(76,76,76);
+	margin: 35px auto 0px auto;
+	font-weight: lighter;
+}
+
+.membersRows span{
+	color: rgb(75,174,154);
+}
+
+.membersRows .row{
+	margin: 50px;
+	
+}
+
+.membersRows .borderPhoto{
+	border: 1px solid rgb(225,225,225);
+	margin: 10px;
+	padding: 50px;
+}
+
+.members .circle{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: rgb(235,235,235);
+	margin: auto;
+}
+
+.borderPhoto .subtitle{
+	width: 340px;
+
+}
+
+.members .sign2{
+	flex-direction: column;
+}
+
+.members .sign2 h3{
+	font-family: Open-Sans-Light;
+	font-size: 150%;
+	color: black;
+	margin: 35px auto 0px auto;
+	font-weight: lighter;
+}
+
+.members .sign2 .subtext{
+	width: 600px;
+}
+
+.sign2 .btnSignUp{
+	width: 200px;
+	height: 60px;
+	border: none;
+	border-radius: 5px;
+	margin: 40px auto 100px auto;
+}
