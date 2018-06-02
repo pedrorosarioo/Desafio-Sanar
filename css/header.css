@@ -1,0 +1,38 @@
+@font-face {
+    font-family: fontHeader;
+    src: url('../font/OpenSans-Bold.ttf');
+}
+
+
+.header{
+	display: flex;
+	background-color:rgb(44,75,96);
+	align-items: center;
+}
+
+.linkheader{
+	color: rgb(58,213,181);
+}
+
+.logosanar{
+	padding: 20px;
+	margin-left: 230px;
+}
+
+.logo{
+	/*background-color: pink;*/
+	flex-grow: 6;
+}
+
+.link{
+	margin-left: 50px;
+	font-family: fontHeader;
+	font-size: 100%;
+}
+
+.subheader{
+	position: relative;
+	margin-right: 230px;
+	margin-left: 40px;
+	margin-top: 4px;
+}
