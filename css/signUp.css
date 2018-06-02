@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Georgia-Italic;
+    src: url('../font/georgiai.ttf');
+}
+
+@font-face {
+    font-family: Open-Sans-Light;
+    src: url('../font/OpenSans-Light.ttf');
+}
+
+.signUp{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(44,63,80);
+	flex-direction: column;
+	text-align: center;
+}
+
+.signUp h1{
+	font-family: Open-Sans-Light;
+	font-weight: lighter;
+	margin-top: 100px;
+	margin-bottom: -1px;
+	font-size: 220%;
+	color: rgb(255,255,255);
+}
+
+.signUp h3{
+	font-family: Open-Sans-Light;
+	font-weight: lighter;
+	font-size: 110%;
+	margin-top: 15px;
+	color: rgb(255,255,255);
+}
+
+.signUpForm{
+	margin: 50px auto 50px auto;
+	padding: -4px -4px -4px 5px;
+}
+
+.signUpForm input{
+	margin: auto auto auto -4px;
+	padding: -4px;
+	border: none;
+	font-family: Open-Sans-Light;
+	font-weight: lighter;
+	font-size: 110%;
+	height: 66px;
+	border-radius: 5px;
+}
+
+.signUpForm .email{
+	padding-right: 200px;
+}
+
+.inputSignUp{
+	display: flex;
+	background-color: white;
+	border-radius: 5px;
+	height: 100%;
+	border: none;
+	padding: -4px;
+	align-items: center;
+	justify-content: center;
+}
+
+.imgMail{
+	margin: 20px 15px 20px 15px;
+}
+
+.inputSignUp .btnSignUp{
+	padding: -4px;
+	width: 100%;
+	background-color: rgb(22,160,134);
+	border-color: rgb(22,160,134);
+	box-shadow: inset 0px -3px rgb(59,212,182);
+	color: white;
+}
+
+.alreadySignedUp{
+	margin-bottom: 15px;
+}
+.alreadySignedUp button{
+	border-radius: 5px;
+	width: 658px;
+	height: 35px;
+	border: none;
+	background-color: rgb(242,108,79);
+	color: white;
+	margin-top: 13px;
+	font-family: Georgia-Italic;
+	font-size: 90%;
+}
+
+.alreadySignedUp button i{
+	margin-right: 15px;
+	font-size: 125%;
+}
