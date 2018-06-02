@@ -63,7 +63,7 @@
 					</div>
 					<div class="descText2">
 						<h3>Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis faucibus orci luctus non.</h3>
-						<img src="img/down.png" class="imgDown"/>
+						<button class="invButton" onclick="showDescription2()"><img src="img/down.png" class="imgDown"/></button>
 					</div>
 				</div>
 			
@@ -72,7 +72,7 @@
 				</div>
 			</div>
 
-			<div class="description2">
+			<div class="description2" id="desc2">
 				<div class="descImg2">
 					<img src="img/iphone.png" class="phone2"/>
 				</div>
@@ -81,12 +81,12 @@
 					<h1>CUM SOCIIS NATOQUE</h1>
 					<div class="descText4">
 						<h3>Integer ultrices posuere cubilia Curae, Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus et ultrices volutpat. Nullam wisi ultricies.</h3>
-						<img src="img/down.png" class="imgDown"/>
+						<button class="invButton" onclick="showDescription3()"><img src="img/down.png" class="imgDown"/></button>
 					</div>
 				</div>
 			</div>
 
-			<div class="description3">
+			<div class="description3" id="desc3">
 				<div class="titleDs3">
 					<h4>Ut Sagittis™</h4>
 					<h1>QUISQUE CURSUS ET, PORTTITOR RISUS. ALIQUAM SEM</h1>
@@ -117,11 +117,11 @@
 						<h4>Cum sociis natoque penatibus et ultrices vullam wisi ultricies</h4>
 					</div>
 				</div>
-				<img src="img/down.png" class="imgDown">
+				<button class="invButton" onclick="showSignUp()"><img src="img/down.png" class="imgDown"/></button>
 			</div>
 
 		</div>
-		<div class="signUp">
+		<div class="signUp" id="signUpp">
 			<div class="signUpTitle">
 				<h1>SIGN UP FOR FREE AND START USING SELLYS</h1>
 				<h3>Nullam wisi ultricies a, gravida vitae, dapibus risus ante sodales lectus blandit eu, tempor diam pede cursus vitae, ultricies.</h3>
@@ -225,8 +225,18 @@
 				description.scrollIntoView();
 			};
 
+			function showDescription3(){
+				var description = document.getElementById("desc3");
+				description.scrollIntoView();
+			};
+
+			function showSignUp(){
+				var description = document.getElementById("signUpp");
+				description.scrollIntoView();
+			};
+
 			function changeColor(){
-				alert('dose');
+				
 			};
 		</script>
 	</body>
