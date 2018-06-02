@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" >
-
 	<head>
 	  <meta charset="UTF-8">
 	  <title>Landing Page: Sanar</title>
@@ -16,7 +15,6 @@
 	  <link rel="stylesheet" href="css/signUp.css">
 	  <link rel="stylesheet" href="css/members.css">
 	  <link rel="stylesheet" href="css/footer.css">
-
 	</head>
 	<body>
 		<div class="header">
@@ -47,15 +45,15 @@
 			</div>
 			<div class="resumeButtons centralized">
 				<button class="btnResume bt1"><span class="optBtn">TAKE A TOUR</span></button>
-				<button class="btnResume bt2"><span class="optBtn">WATCH THE VIDEO</span></button>
+				<button class="btnResume bt2" onclick="changeColor()"><span class="optBtn">WATCH THE VIDEO</span></button>
 			</div>
 			<div class="more centralized">
-				<button id="btnMore"><img src="img/more.png" class="btnCenter"/></button>
+				<button id="btnMore" onclick="showDescription()" class=""><img src="img/more.png" class="btnCenter"/></button>
 			</div>
 		</div>
 
 		<div class="sectionIphone">
-			<div class="description1">
+			<div class="description1" id="desc1">
 				<div class="descText1">
 					<h4>Lorem dolor</h4>
 					<h1>MAURIS NEC</h1>
@@ -216,5 +214,20 @@
 				<p class="signature">Sellys, Warsaw 2013.</p>
 			</div>
 		</div>
+		<script>
+			function showDescription(){
+				var description = document.getElementById("desc1");
+				description.scrollIntoView();
+			};
+
+			function showDescription2(){
+				var description = document.getElementById("desc2");
+				description.scrollIntoView();
+			};
+
+			function changeColor(){
+				alert('dose');
+			};
+		</script>
 	</body>
 </html>
