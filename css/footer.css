@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Open-Sans-Light;
+    src: url('../font/OpenSans-Light.ttf');
+}
+
+.footer{
+	border-top: 1px solid rgb(225,225,225);
+}
+
+.links{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+.links .tags{
+	margin-right: 90px;
+	padding-right: 100px;
+}
+
+.links .tags li{
+	margin: 15px;
+	display: inline-block;
+	font-family: Open-Sans-Light;
+	font-size: 90%;
+}
+
+.links .tags a{
+	text-decoration: none;
+	color: rgb(137,137,137);
+}
+
+.links .signature{
+	font-family: Open-Sans-Light;
+	font-size: 90%;
+	color: rgb(137,137,137);
+}
+
+.links .followTwitter{
+	margin-right: 30px;
+}
+
+
+.links button{
+	border: none;
+	background-color: white;
+}

@@ -25,7 +25,7 @@
 
 /* ---------- LOGO ----------*/
 .logoselly{
-	margin: 100px auto 16px auto;
+	margin: 120px auto 16px auto;
 	/*background-color: pink;*/
 }
 
@@ -66,6 +66,12 @@
 }
 
 button.btnResume:hover{
+	background-color: rgb(22,160,134);
+	border-color: rgb(22,160,134);
+	box-shadow: inset 0px -3px rgb(59,212,182);
+}
+
+.bt1{
 	background-color: rgb(22,160,134);
 	border-color: rgb(22,160,134);
 	box-shadow: inset 0px -3px rgb(59,212,182);

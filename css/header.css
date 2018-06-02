@@ -8,9 +8,6 @@
 	display: flex;
 	background-color:rgb(44,75,96);
 	align-items: center;
-	position: fixed;
-  	z-index: 99;
-  	top: 0;
   	width: 100%;
 }
 
