@@ -111,7 +111,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: auto;
 	width: 780px;
 }
 
@@ -121,7 +120,17 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	margin-top: 80px;
+	margin-top: 50px;
+}
+
+.album .square-out{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border: 1px solid rgb(228, 232, 235);
+	width: 205px;
+	height: 205px;
 }
 
 .album .square{
@@ -140,12 +149,12 @@
 
 .album h4{
 	text-align: center;
-	font-size: 92%;
+	font-size: 88%;
 	margin-top: auto;
 	color: rgb(139,139,139);
 }
 
 .album h2{
 	margin-bottom: 10px;
-	margin-top: 60px;
+	margin-top: 30px;
 }
