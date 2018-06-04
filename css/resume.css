@@ -88,3 +88,8 @@ button.btnResume:hover{
 	border: none;
 	box-shadow: none;
 }
+
+#btnMore:focus{
+	outline: none;
+}
+
