@@ -76,6 +76,7 @@
 	border-color: rgb(22,160,134);
 	box-shadow: inset 0px -3px rgb(59,212,182);
 	color: white;
+	transition: background-color 0.4s, border-color 0.4s;
 }
 
 .alreadySignedUp{
@@ -92,9 +93,19 @@
 	margin-top: 13px;
 	font-family: Georgia-Italic;
 	font-size: 90%;
+	transition: background-color 0.4s;
 }
 
 .alreadySignedUp button i{
 	margin-right: 15px;
 	font-size: 125%;
+}
+
+.btnSignUp:hover{
+	background-color: rgb(05, 143, 117);
+	border-color: rgb(05, 143, 117);
+}
+
+.alreadySignedUp button:hover{
+	background-color: rgb(232,98,69);
 }
