@@ -168,3 +168,7 @@
 .invButton:focus{
 	outline: none;
 }
+
+.invButton:hover{
+	cursor:pointer;
+}
