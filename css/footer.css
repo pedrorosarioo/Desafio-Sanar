@@ -48,3 +48,35 @@
 	border: none;
 	background-color: white;
 }
+
+.links .tags .abt:hover{
+	color: rgb(95,158,160);
+}
+
+.links .tags .blog:hover{
+	color: rgb(95,158,160);
+}
+
+.links .tags .pricing:hover{
+	color: rgb(95,158,160);
+}
+
+.links .tags .apps:hover{
+	color: rgb(95,158,160);
+}
+
+.links .tags .help:hover{
+	color: rgb(95,158,160);
+}
+
+.links .tags .terms:hover{
+	color: rgb(95,158,160);
+}
+
+.links .tags .privacy:hover{
+	color: rgb(95,158,160);
+}
+
+.links .tags .contact:hover{
+	color: rgb(95,158,160);
+}
