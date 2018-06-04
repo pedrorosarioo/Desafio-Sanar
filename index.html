@@ -44,11 +44,12 @@
 				<h3>Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis fauer lobortis quis, varius in, purus.</h3>
 			</div>
 			<div class="resumeButtons centralized">
-				<button class="btnResume bt1"><span class="optBtn">TAKE A TOUR</span></button>
-				<button class="btnResume bt2" onclick="changeColor()"><span class="optBtn">WATCH THE VIDEO</span></button>
+				<button class="btnResume bt1" id="bt1" onclick="changeColor(event)"><span class="optBtn">TAKE A TOUR</span></button>
+				<button class="btnResume bt2" id="bt2" onclick="changeColor(event)"><span class="optBtn">WATCH THE VIDEO</span></button>
 			</div>
 			<div class="more centralized">
-				<button id="btnMore" onclick="showDescription()" class=""><img src="img/more.png" class="btnCenter"/></button>
+				<button id="btnMore" onclick="showDescription(event)"><img src="img/more.png" class="btnCenter" 
+				id="btMore"/></button>
 			</div>
 		</div>
 
@@ -63,7 +64,7 @@
 					</div>
 					<div class="descText2">
 						<h3>Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo vel bibendum sapien massa ac turpis faucibus orci luctus non.</h3>
-						<button class="invButton" onclick="showDescription2()"><img src="img/down.png" class="imgDown"/></button>
+						<button class="invButton"  onclick="showDescription(event)"><img src="img/down.png" class="imgDown" id="toDesc2"/></button>
 					</div>
 				</div>
 			
@@ -81,7 +82,7 @@
 					<h1>CUM SOCIIS NATOQUE</h1>
 					<div class="descText4">
 						<h3>Integer ultrices posuere cubilia Curae, Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus et ultrices volutpat. Nullam wisi ultricies.</h3>
-						<button class="invButton" onclick="showDescription3()"><img src="img/down.png" class="imgDown"/></button>
+						<button class="invButton"  onclick="showDescription(event)"><img src="img/down.png" class="imgDown" id="toDesc3"/></button>
 					</div>
 				</div>
 			</div>
@@ -117,7 +118,7 @@
 						<h4>Cum sociis natoque penatibus et ultrices vullam wisi ultricies</h4>
 					</div>
 				</div>
-				<button class="invButton" onclick="showSignUp()"><img src="img/down.png" class="imgDown"/></button>
+				<button class="invButton" onclick="showDescription(event)" ><img src="img/down.png" class="imgDown" id="toSignUp"/></button>
 			</div>
 
 		</div>
@@ -215,27 +216,26 @@
 			</div>
 		</div>
 		<script>
-			function showDescription(){
-				var description = document.getElementById("desc1");
-				description.scrollIntoView();
-			};
+			function showDescription(event){
+				switch(event.target.id){
+					case "btMore":
+						var description = document.getElementById("desc1");
+						break;
+					case "toDesc2":
+						var description = document.getElementById("desc2");
+						break;
+					case "toDesc3":
+						var description = document.getElementById("desc3");
+						break;
+					case "toSignUp":
+						var description = document.getElementById("signUpp");
+				}
+				description.scrollIntoView({behavior: "smooth"});
+			}
 
-			function showDescription2(){
-				var description = document.getElementById("desc2");
-				description.scrollIntoView();
-			};
-
-			function showDescription3(){
-				var description = document.getElementById("desc3");
-				description.scrollIntoView();
-			};
-
-			function showSignUp(){
-				var description = document.getElementById("signUpp");
-				description.scrollIntoView();
-			};
-
-			function changeColor(){
+			function changeColor(event){
+				
+				}
 				
 			};
 		</script>
