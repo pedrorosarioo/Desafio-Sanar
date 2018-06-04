@@ -3,6 +3,9 @@
     src: url('../font/OpenSans-Bold.ttf');
 }
 
+body{
+	margin: 0px;
+}
 
 .header{
 	display: flex;
