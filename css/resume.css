@@ -71,6 +71,10 @@ button.btnResume:hover{
 	box-shadow: inset 0px -3px rgb(59,212,182);
 }
 
+button.btnResume:focus{
+	outline:none;
+}
+
 .bt1{
 	background-color: rgb(22,160,134);
 	border-color: rgb(22,160,134);
@@ -92,4 +96,5 @@ button.btnResume:hover{
 #btnMore:focus{
 	outline: none;
 }
+
 
